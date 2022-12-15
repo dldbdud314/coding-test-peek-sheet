@@ -9,8 +9,6 @@
 - `str.split(기준 문자)` (-> String[])
 - `str.toLowerCase()`, `str.toUpperCase()`
 - `str.equals(str2)`, `str.contains(str2)`: 같은지 / 포함되어 있는지
-- `Integer.parseInt("numberStr")` : 문자열 -> 숫자
-- `Integer.toString(number)` : 숫자 -> 문자열
 
 ### StringBuilder
 

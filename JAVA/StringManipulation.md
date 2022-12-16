@@ -31,9 +31,10 @@
 - `str1.equals(str2)`, `str1.equalsIgnoreCase(str2)`(대소문자 무시)
 - `str.contains(str2)`
 
+### 문자열 뒤집기
 
-### StringBuilder
+- `new StringBuilder().reverse().toString()`
 
-- `sb.append(문자)`
-- `sb.deleteCharAt(idx)`
-- `sb.setCharAt(idx, 문자)`
+### string -> char stream (사실 int stream)
+
+- `str.chars()`

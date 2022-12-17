@@ -22,6 +22,20 @@
 
 - `str.split(기준 문자)` (-> String[])
 
+### 문자열 
+- `str.split(기준 문자)` (-> String[])
+
+### 문자열 합치기
+````java
+String[] strings = new String[] {"a", "b", "c", "d"};
+
+// 1. String join 메소드
+String.join(", ", strings); // a, b, c, d
+
+// 2. stream 활용
+strings.stream().collect(Collectors.joining(", ")
+````
+
 ### meddling
 
 - 모두 소문자로/모두 대문자로: `str.toLowerCase()`, `str.toUpperCase()`

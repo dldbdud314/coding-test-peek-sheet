@@ -5,6 +5,10 @@
 
 ### list comprehension
 
+#### 3차원 리스트 생성
+
+- `lst = [[[0] * k for _ in range(n)] for _ in range(m)]` 
+
 #### 짝수번째 인덱스만 담은 리스트 
 
 - `seq = [x for i, x in enumerate(sequence) if i % 2 == 0]`

@@ -3,6 +3,8 @@
 ````java
 Queue<String> queue = new LinkedList<String>();
 
+queue.isEmpty();
+
 // 데이터 삽입
 queue.offer("one");
 queue.offer("two");

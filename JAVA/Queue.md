@@ -1,4 +1,4 @@
-## Queue
+### 단순 Queue
 
 ````java
 Queue<String> queue = new LinkedList<String>();
@@ -16,3 +16,10 @@ String front = queue.peek();  // front = "one"
 // 맨앞 데이터 빼기
 String front = queue.poll();  // queue : "two", "three"
 
+````
+
+### PriorityQueue
+
+````java
+Queue<Integer> MinHeap = new PriorityQueue<>();
+Queue<Integer> MaxHeap = new PriorityQueue<>(Comparator.reverseOrder());

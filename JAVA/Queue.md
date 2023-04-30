@@ -16,6 +16,16 @@ String front = queue.peek();  // front = "one"
 // 맨앞 데이터 빼기
 String front = queue.poll();  // queue : "two", "three"
 
+// 덱: 양방향 큐 
+Deque<Integer> deque = new LinkedList<Integer>();
+
+deque.offerFirst(1);
+deque.offerLast(2);
+deque.offerFirst(3);
+deque.offerFirst(4);
+
+deque.pollFirst();
+deque.pollLast();
 ````
 
 ### PriorityQueue

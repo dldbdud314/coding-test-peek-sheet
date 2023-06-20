@@ -22,9 +22,6 @@
 
 - `str.split(기준 문자)` (-> String[])
 
-### 문자열 
-- `str.split(기준 문자)` (-> String[])
-
 ### 문자열 합치기
 ````java
 String[] strings = new String[] {"a", "b", "c", "d"};

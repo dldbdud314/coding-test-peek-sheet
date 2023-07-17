@@ -1,14 +1,15 @@
 
-### 백준 템플릿 박제
+### 백준 템플릿 박제 (+입력 받기)
 
 ```java
 public class Main{
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
+
+        int n = Integer.parseInt(st.nextToken());
+        int m = Integer.parseInt(st.nextToken());
         ...
-        
-        
     }
 }
 ```

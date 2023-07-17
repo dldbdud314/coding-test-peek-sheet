@@ -5,8 +5,9 @@
 public class Main{
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
+        StringTokenizer st = new StringTokenizer(br.readLine());  // 한 줄 입력 받기
 
+        // 공백 기준 split
         int n = Integer.parseInt(st.nextToken());
         int m = Integer.parseInt(st.nextToken());
         ...
